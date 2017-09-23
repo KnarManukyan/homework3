@@ -34,6 +34,28 @@ const stringLength= function (string1, string2, string3) {
   else if (string3.length>string1.length && string3.length>string2.length) {
     return string3;
   }
+  else if (string1.length===string2.length && string1.length===string3.length) {
+    return "all strings are equal";
+  }
+  else if (string1.length===string2.length && string1.length>string3.length) {
+    return string1;
+  }
+  else if (string1.length===string2.length && string1.length<string3.length) {
+    return string3;
+  }
+  else if (string1.length===string3.length && string1.length>string3.length) {
+    return string1;
+  }
+  else if (string1.length===string3.length && string1.length<string3.length) {
+    return string3;
+  }
+  else if (string2.length===string3.length && string2.length>string3.length) {
+    return string2;
+  }
+  else if (string2.length===string3.length && string2.length<string3.length) {
+    return string3;
+  }
+
 }
 
 
