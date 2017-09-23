@@ -37,7 +37,7 @@ const stringLength= function (string1, string2, string3) {
 }
 
 
-const Vzgo = function (num1,num2) {
+const Baxtiar = function (num1,num2) {
 if (num1===num2) {
 return 0;
 }
